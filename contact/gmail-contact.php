@@ -17,7 +17,7 @@ $fromEmail = $_POST['email'];
 $fromName = $_POST['name'];
 
 // an email address that will receive the email with the output of the form
-$sendToEmail = 'email@gmail.com';
+$sendToEmail = 'safieoscar@gmail.com';
 // form field names and their translations.
 // array variable name => Text to appear in the email
 $fields = array('name' => 'Name:', 'email' => 'Email:', 'message' => 'Message:');

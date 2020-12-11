@@ -30,35 +30,40 @@
 		<div class="top-bar">
 			<div class="container">
 				<div class="row">
-					
-					<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
-						<div class="social-wrap mx-auto">
-							<ul class="social">
-								<li><a href="https://facebook.com/w3newbie/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-								<li><a href="https://twitter.com/drewoncue" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-								<li><a href="https://pinterest.com/w3newbie/" target="_blank"><i class="fab fa-pinterest-square"></i></a></li>
-								<li><a href="https://youtube.com/drewoncue" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
-								<li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-							</ul>
-						</div>
+
+					<div class="d-none d-sm-block col-sm-6 col-md-2 col-lg-7 col-xl-3 text-center text-uppercase">
+						<a href="#">
+							<i class="fas fa-caret-square-right"></i>
+							<p>English</p>
+						</a>
+	
+						<a href="#">
+							<i class="fas fa-caret-square-right"></i>
+							<p class="">Espa&ntilde;ol</p>
+						</a>
 					</div>
 
-					<div class="d-none d-lg-block col-lg-3 col-xl-5">
+					<div class="d-none d-lg-block col-lg-1 col-xl-4">
 					</div>
 
-					<div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center">
+					<div class="d-block col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 text-center">
 						<a href="tel:+150322837500">
 							<i class="fas fa-phone"></i>
 							<p>+503 2283-7500</p>
 						</a>
-					</div>
 
-					<div class="d-none d-md-block col-md-4 col-lg-3 col-xl-2 text-center">
 						<a href="mailto:+sales@rayonesa.com">
 							<i class="fas fa-envelope"></i>
 							<p>sales@rayonesa.com</p>
 						</a>
 					</div>
+
+					<!--<div class="d-block col-xs-6 col-md-4 col-lg-2 col-xl-2 text-center">
+						<a href="mailto:+sales@rayonesa.com">
+							<i class="fas fa-envelope"></i>
+							<p>sales@rayonesa.com</p>
+						</a>
+					</div> -->
 
 
 				</div> <!-- End Row -->
@@ -81,17 +86,33 @@
 						<li class="nav-item">
 							<a class="nav-link" href="about.html">Quienes Somos</a>
 						  </li>
-						  
-						<li class="nav-item">
-							<a class="nav-link" href="productos.html">Productos</a>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="fabrica.html" id="dropdown1" aria-haspopup="true" aria-expanded="false">Fabrica</a>
+							<ul class="first dropdown-menu" aria-labelledby="dropdown1">
+								<li><a class="dropdown-item" href="blog.html">Processos</a></li>
+								<li class="dropdown-submenu">
+									<a id="dropdownMenu2" href="productos.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Productos</a>
+									<ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0">
+											<li>
+												<a tabindex="-1" href="productos.html#nuno" class="dropdown-item">Tejido de Punto</a>
+											</li>
+											<li>
+												<a tabindex="0" href="productos.html#nest" class="dropdown-item">Tejido Plano</a>
+											</li>
+									</ul>
+								</li>
+							</ul>
 						</li>
+						  
+						
 						  
 						<li class="nav-item">
 							<a class="nav-link" href="sostenibilidad.html">Responsablidad Social</a>
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link" href="contact.html">Contactenos</a>
+							<a class="nav-link" href="contact.html">Contáctenos</a>
 						</li>
 
 					</ul>
@@ -192,10 +213,58 @@
 
 		<hr class="mt-3 mb-2">
 
-			<!-- Start Main Wrapper -->
-	<div class="main-wrapper">
+		<!-- Three Column Section 
+		<div class="container pt-5 mb-2 pt-3">
+			<div class="row">
+				<div class="col-12 os-animation text-center" data-animation="animate__animated animate__fadeInUp">
+					<h3 class="text-dark">Grupo TS</h3>
+					<div class="title-underline"></div>
+					<p class="lead">Rayones de El Salvador es parte de un conglomerado local que participa en diferentes industrias.</p>
+				</div>
 
-		<!-- Start Home Clients Carousel -->
+				<div class="col-md-4">
+					<div class="os-animation" data-animation="animate__animated animate__fadeInLeft">
+						<div class="image-scale">
+							<div class="image-scale-img">
+								<img src="img/home/columns/1.jpg" alt="#">
+							</div>
+							<h4 class="my-4 text-dark">Grupo de Empresas</h4>
+							<p>Get to know how we grew as an agency from our humble beginnings to having an abundance of client success.</p>
+							<a class="btn btn-outline-dark btn-sm" href="#">Our Story</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="os-animation" data-animation="animate__animated animate__fadeInUp">
+						<div class="image-scale">
+							<div class="image-scale-img">
+								<img src="img/home/columns/2.jpg" alt="#">
+							</div>
+							<h4 class="my-4 text-dark">Clients Are Priority</h4>
+							<p>Clients are our number on priority.  By focusing purely on the needs of our clientel, we have grown our agency.</p>
+							<a class="btn btn-outline-dark btn-sm" href="#">Testimonials</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="os-animation" data-animation="animate__animated animate__fadeInRight">
+						<div class="image-scale">
+							<div class="image-scale-img">
+								<img src="img/home/columns/3.jpg" alt="#">
+							</div>
+							<h4 class="my-4 text-dark">A History of Success</h4>
+							<p>Get to know our work by taking a look at our history of projects that we have completed for our happy customers.</p>
+							<a class="btn btn-outline-dark btn-sm" href="#">Our Projects</a>
+						</div>
+					</div>
+				</div>
+
+			</div>  End Row -->
+		</div> <!-- End Container -->
+
+		<!-- Start Home Clients Carousel 
 		<div id="owl-carousel">
 			<div class="container pt-5 text-center">
 
@@ -256,10 +325,10 @@
 							</div>
 						</div>
 
-					</div> <!-- End Owl Carousel -->
-					</div> <!-- End Carousel Wrap -->
+					</div>  End Owl Carousel 
+					</div>  End Carousel Wrap 
 
-				</div> <!-- End Animation -->
+				</div>  End Animation -->
 
 			</div> <!-- End Container -->
 		</div> <!-- End Home Clients Carousel -->
@@ -267,13 +336,14 @@
 	</div><!-- End Main Wrapper -->
 
 
+	<!-- Start Footer -->
 	<footer>
 		<div class="container">
 			<div class="row text-light pt-3 justify-content-between">
 
 				<div class="col-md-4 col-lg-3">
 					<a href="index.html"><img class="logo" src="img/logos/Rayonesblanco.png" alt=""></a>
-					<h4>M&aacute;s que vender telas, proveemos soluciones!</h4>
+					<h4>&#161;M&aacute;s que vender telas, proveemos soluciones!</h4>
 					<div class="footer-social-wrap float-left pt-3">
 
 					</div>
@@ -285,14 +355,14 @@
 					<div class="footer-links">
 						<p><a href="index.html"><i class="fas fa-home mr-3"></i>Inicio</a></p>
 						<p><a href="about.html"><i class="fas fa-address-card mr-3"></i>Quienes Somos</a></p>
-						<p><a href="productos.html"><i class="fas fa-globe mr-3"></i>Productos</a></p>
+						<p><a href="productos.html"><i class="fas fa-globe mr-3"></i>F&aacute;brica</a></p>
 						<p><a href="sostenibilidad.html"><i class="fas fa-project-diagram mr-3"></i>Responsabilidad Social</a></p>
-						<p><a href="contact.html"><i class="fas fa-paper-plane mr-3"></i>Contáctanos</a></p>
+						<p><a href="contact.html"><i class="fas fa-paper-plane mr-3"></i>Contáctenos</a></p>
 					</div>
 				</div>
 
 				<div class="col-md-block col-lg-3 mt-md-4 ml-md-2 social text-lg-left text-md-center">
-					<h5 class="pb-3">Contáctanos</h5>
+					<h5 class="pb-3">Contáctenos</h5>
 					<p class="text-uppercase">Rayones de el salvador</p>
 					<p><i class="fas fa-map-marker-alt mr-2"></i>Km. 11 Carretera Panamericana<br/>
 					<span class="ml-1"> Ilopango, El Salvador</span></p>

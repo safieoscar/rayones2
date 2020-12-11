@@ -38,11 +38,6 @@ a, .btn, button {
   cursor: pointer!important;
 }
 
-#hila{
-  background-image: url("img/home/columns/hila.jpg") ;
-}
-
-
 
 /*============= TEXT, BUTTON & BG COLOR STYLE =============*/
 
@@ -491,8 +486,15 @@ img {
   background-image: url('../img/fixed/projects.jpg');
 }
 #fixed.contact {
+  background-image: url('../img/fixed/blog.jpg');
+}
+#fixed.blog {
   background-image: url('../img/fixed/contact.jpg');
 }
+#fixed.fabrica {
+  background-image: url('../img/fixed/blog1.jpg');
+}
+
 
 /*============= CLIENTS CAROUSEL =============*/
 
@@ -877,6 +879,204 @@ input.btn {
   box-shadow: none !important;
 }
 
+
+/*============= CAROUSELS FROM WEB =============*/
+
+section {
+  background: #F4F4F4;
+  padding: 50px 0;
+}
+
+#planta.container {
+  max-width: 1044px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#planta .carousel {
+  display: block;
+  text-align: left;
+  position: relative;
+  margin-bottom: 22px;
+}
+#planta .carousel > input {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+#planta .carousel > input:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -500%;
+}
+#planta .carousel > input:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -400%;
+}
+#planta .carousel > input:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -300%;
+}
+#planta .carousel > input:nth-of-type(3):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -200%;
+}
+#planta .carousel > input:nth-of-type(2):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -100%;
+}
+#planta .carousel > input:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: 0%;
+}
+#planta .carousel > input:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+#planta .carousel > input:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+#planta .carousel > input:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+#planta .carousel > input:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+#planta .carousel > input:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+#planta .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+
+#planta .carousel__slides {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#planta .carousel__slide {
+  position: relative;
+  display: block;
+  flex: 1 0 100%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 300ms ease-out;
+  vertical-align: top;
+  box-sizing: border-box;
+  white-space: normal;
+}
+#planta .carousel__slide figure {
+  display: flex;
+  margin: 0;
+}
+#planta .carousel__slide div {
+  position: relative;
+  width: 100%;
+}
+#planta .carousel__slide div:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 66.6666666667%;
+}
+#planta .carousel__slide div > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+#planta .carousel__slide img {
+  display: block;
+  flex: 1 1 auto;
+  object-fit: cover;
+}
+#planta .carousel__slide figcaption {
+  align-self: flex-end;
+  padding: 20px 20px 0 20px;
+  flex: 0 0 auto;
+  width: 25%;
+  min-width: 150px;
+}
+#planta .carousel__slide .credit {
+  margin-top: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+}
+#planta .carousel__slide.scrollable {
+  overflow-y: scroll;
+}
+
+#planta .carousel__thumbnails {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin: 0 -10px;
+}
+#planta .carousel__slides + #planta .carousel__thumbnails {
+  margin-top: 20px;
+}
+#planta .carousel__thumbnails li {
+  flex: 1 1 auto;
+  max-width: calc((100% / 6) - 20px);
+  margin: 0 10px;
+  transition: all 300ms ease-in-out;
+}
+#planta .carousel__thumbnails label {
+  display: block;
+  position: relative;
+}
+#planta .carousel__thumbnails label:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 100%;
+}
+#planta .carousel__thumbnails label > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+#planta .carousel__thumbnails label:hover, #planta .carousel__thumbnails label:focus {
+  cursor: pointer;
+}
+#planta .carousel__thumbnails label:hover img, #planta .carousel__thumbnails label:focus img {
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
+  transition: all 300ms ease-in-out;
+}
+#planta .carousel__thumbnails img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#maquina {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+/*============= END WEB CAROUSEL =============*/
+
+
 /*============= GOOGLE MAP =============*/
 
 .contact-map {
@@ -1007,6 +1207,7 @@ input.btn {
   .carousel-inner {
     padding: 0;
     margin: 0;
+    height: fit-content;
   }
   .carousel-caption h1 {
     font-size: 1.4rem;
@@ -1022,6 +1223,18 @@ input.btn {
 @media (max-width: 429px) {
   .carousel-caption {
     top: 38%!important;
+  }
+  .carousel-inner {
+    padding: 0;
+    margin: 0;
+    height: max-content;
+  }
+  #hila {
+    text-align: center;
+  }
+  #hila .btn {
+    margin: 0;
+    padding: 0;
   }
 }
 
