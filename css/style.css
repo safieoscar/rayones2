@@ -477,22 +477,22 @@ img {
 /*===== BREADCRUMBS BACKGROUND IMGs =====*/
 
 #fixed.about {
-  background-image: url('../img/fixed/about.jpg');
+  background-image: url('../img/fixed/about.webp');
 }
 #fixed.services {
-  background-image: url('../img/fixed/respon2.jpg');
+  background-image: url('../img/fixed/respon2.webp');
 }
 #fixed.projects {
-  background-image: url('../img/fixed/projects.jpg');
+  background-image: url('../img/fixed/projects.webp');
 }
 #fixed.contact {
-  background-image: url('../img/fixed/blog.jpg');
+  background-image: url('../img/fixed/blog.webp');
 }
 #fixed.blog {
-  background-image: url('../img/fixed/contact.jpg');
+  background-image: url('../img/fixed/contact.webp');
 }
 #fixed.fabrica {
-  background-image: url('../img/fixed/blog1.jpg');
+  background-image: url('../img/fixed/blog1.webp');
 }
 
 
